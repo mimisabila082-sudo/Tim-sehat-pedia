@@ -1,0 +1,83 @@
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FFFFFF;
+}
+
+nav{
+    background-color: #C40101;
+    display: flex;
+    justify-content: space-between;
+    height: 80px
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration:none ;
+    font-family: "Kreon";
+    color: #ffff;
+    font-size: large;
+    padding: 10px; 
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 2px solid rgba(248, 216, 148, 0);
+}
+
+nav ul li a.bg {
+    color: #C40101;
+}
+.bg{
+    background-color: #ffff;
+    border-radius: 20px;
+}
+.firstname{
+    font-family: "Kreon";
+    color: #ffff;
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-top: -0px;
+    margin-right: auto;
+}
+.lastname{
+    font-family: "Kreon";
+    color: #46BFBE;
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-top: -0px;
+    margin-right: auto;
+}
+.hero-box{
+   background-color: #C40101;
+   width: calc(100% - 100px);
+   border-radius: 25px;
+   padding: 230px 0;
+   margin-top: 20px;
+   margin-left: 50px;
+   margin-right: 50px;  
+}
+ 
+.img-hero{
+    width: 50%;
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.logo-img {
+    height: 100px;
+    width: auto;
+    margin-top: -10px;
+}
